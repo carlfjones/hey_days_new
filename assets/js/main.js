@@ -1,3 +1,6 @@
+
+// Homepage slideshow
+
 var slideIndex = 0;
 carousel();
 
