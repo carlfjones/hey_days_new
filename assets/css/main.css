@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  height: 50px;
+  background: blue; }
+
+.homeSlides {
+  width: 100vw; }
+
+.slideshow {
+  height: 90vh;
+  width: 100px; }
+
+/*# sourceMappingURL=main.css.map */
