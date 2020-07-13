@@ -8,7 +8,7 @@ body {
   grid-template-columns: 100px auto 100px;
   align-items: center;
   height: 60px;
-  background: whitesmoke; }
+  background: white; }
   .navbar #logo {
     grid-column: 3;
     justify-self: center;
@@ -44,7 +44,7 @@ body {
     width: 20px;
     height: 25px;
     padding: 1rem;
-    background: whitesmoke;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -131,5 +131,36 @@ body {
 .slideshow {
   height: 90vh;
   width: 100px; }
+
+.projects {
+  height: 100vh; }
+
+.about_me {
+  height: 100vh;
+  width: 100vw; }
+  .about_me .background_band {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcebdf;
+    height: 30vh;
+    width: 100vw; }
+    .about_me .background_band #aboutme_title {
+      padding: 130px;
+      font-weight: 800;
+      font-size: 5rem; }
+    .about_me .background_band .aboutme_pic {
+      padding: 40px 40px 0px 0px;
+      justify-self: flex-end;
+      height: 60vh; }
+  .about_me .blurb_container {
+    display: flex; }
+  .about_me .aboutme_blurb {
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    width: 30vw; }
+  .about_me #aboutme_blurb1 {
+    width: 30vw; }
 
 /*# sourceMappingURL=main.css.map */
