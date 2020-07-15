@@ -132,8 +132,99 @@ body {
   height: 90vh;
   width: 100px; }
 
-.projects {
-  height: 100vh; }
+.projects .des_banner {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fcebdf;
+  width: 100vw;
+  height: 20vh; }
+.projects .mini_gall {
+  margin: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 90vh; }
+  .projects .mini_gall #mini_gall_pic1 {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 1 / 4 / 3;
+    background: url("../imgs/mini_gall/1.jpg") no-repeat center;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .projects .mini_gall #mini_gall_pic1 .info {
+      text-align: right;
+      margin-right: 40px;
+      margin-bottom: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 1.3rem;
+      width: 50%; }
+    .projects .mini_gall #mini_gall_pic1 .go_to_gall_btn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      margin-bottom: 40px;
+      margin-right: 40px;
+      border: 5px solid white;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer; }
+      .projects .mini_gall #mini_gall_pic1 .go_to_gall_btn:hover {
+        background-color: #fcebdf;
+        color: #bbdbf7; }
+  .projects .mini_gall #mini_gall_pic2 {
+    display: flex;
+    grid-area: 1 / 3 / 2 / 5;
+    background: url("../imgs/mini_gall/2.jpg") no-repeat center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center; }
+    .projects .mini_gall #mini_gall_pic2 .go_to_abt_me_btn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      margin-bottom: 40px;
+      margin-right: 40px;
+      border: 5px solid white;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer; }
+      .projects .mini_gall #mini_gall_pic2 .go_to_abt_me_btn:hover {
+        background-color: #fcebdf;
+        color: #bbdbf7; }
+  .projects .mini_gall #mini_gall_pic3 {
+    display: flex;
+    grid-area: 2 / 3 / 4 / 5;
+    background: url("../imgs/mini_gall/3.jpg") no-repeat center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center; }
+    .projects .mini_gall #mini_gall_pic3 .info {
+      letter-spacing: 0.5rem;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 1.5rem;
+      width: 50%; }
+
+.des_banner2 {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #bbdbf7;
+  width: 100vw;
+  height: 20vh; }
 
 .about_me {
   height: 100vh;
@@ -162,5 +253,16 @@ body {
     width: 30vw; }
   .about_me #aboutme_blurb1 {
     width: 30vw; }
+
+.footer {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fcebdf;
+  width: 100vw;
+  height: 20vh; }
 
 /*# sourceMappingURL=main.css.map */
