@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+<body>
+    <div class="navbar">
+        <div id="title">Hey Days Furniture</div>
+          <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                    <div class="menu">
+                     <div>
+                        <div>
+                            <ul>
+                                <li><a href="./home.html">Home</a></li>
+                                <li><a href="./aboutme.html">About</a></li>
+                                <li><a href="./gallery.html">Gallery</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <img id="logo" src="./assets/imgs/homelogo.png" alt="">
+    </div>
+
+    <section class="landing">
+        <div class="title_container">
+            <div class="title">Gallery</div>
+
+            <form action="mail.php" method="post" id ="contact_form" name="contact_form" >
+                Your Name:<br><br>
+                <input type="text" placeholder="Jo Blogs" name="name" class="input" minlength="2" required><br><br>
+
+                Email Address:<br><br>
+                <input placeholder="joblogs@ilikefurniture.com" type="email" name="email" class="input" required><br><br>
+
+                Message:<br><br>
+                <textarea placeholder="I love furniture!" name="message" class="input"></textarea><br><br>
+
+                <button class="submit" type="submit">SEND</button>
+            </form>	
+
+
+        </div>
+    </section>
+    
+</body>
+</html>

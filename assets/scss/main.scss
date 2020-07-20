@@ -156,9 +156,10 @@ body {
     }
     .menu-wrap .menu > div > div > ul > li {
         font-style: italic;
+        font-weight: 800;
         list-style: none;
-        color: whitesmoke;
-        font-size: 1rem;
+        color: white;
+        font-size: 2rem;
         padding: 1rem;
     }
     .menu-wrap .menu > div > div > ul > li > a {
@@ -222,6 +223,7 @@ body {
             }
 
             .go_to_gall_btn {
+                text-decoration: none;
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 900;
                 margin-bottom: 40px;
@@ -248,6 +250,7 @@ body {
             align-items: center;
 
             .go_to_abt_me_btn {
+                text-decoration: none;
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 900;
                 border: 5px solid white;

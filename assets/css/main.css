@@ -114,9 +114,10 @@ body {
     transition: opacity 0.4s ease; }
   .navbar .menu-wrap .menu > div > div > ul > li {
     font-style: italic;
+    font-weight: 800;
     list-style: none;
-    color: whitesmoke;
-    font-size: 1rem;
+    color: white;
+    font-size: 2rem;
     padding: 1rem; }
   .navbar .menu-wrap .menu > div > div > ul > li > a {
     color: inherit;
@@ -167,6 +168,7 @@ body {
       font-size: 1.3rem;
       width: 50%; }
     .projects .mini_gall #mini_gall_pic1 .go_to_gall_btn {
+      text-decoration: none;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
       margin-bottom: 40px;
@@ -187,6 +189,7 @@ body {
     justify-content: center;
     align-items: center; }
     .projects .mini_gall #mini_gall_pic2 .go_to_abt_me_btn {
+      text-decoration: none;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
       border: 5px solid white;
