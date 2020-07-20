@@ -250,8 +250,6 @@ body {
             .go_to_abt_me_btn {
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 900;
-                margin-bottom: 40px;
-                margin-right: 40px;
                 border: 5px solid white;
                 color: white;
                 padding: 14px 28px;
@@ -296,34 +294,34 @@ body {
     }
 
 
-// .insta {
-//     padding-top: 50px;
-//     padding-bottom: 50px;
-//     display: grid;
-//     justify-content: center;
-//     grid-template-columns: repeat(3, 1fr);
-//     grid-template-rows: auto;
-//     grid-gap: 10px;
-//     width: 100vw;
-//     height: auto;
-//     .insta_1 {
-//         display: flex;
-//         justify-content: center;
-//         grid-area: 1 / 1 / 1 / 2;
-//     }
-//     .insta_2 {
-//         display: flex;
-//         justify-content: center;
-//         grid-area: 1 / 2 / 1 / 3;
-//         width: 100%;
-//     }
-//     .insta_3 {
-//         display: flex;
-//         justify-content: center;
-//         grid-area: 1 / 3 / 1 / 4;
-//         width: 100%;
-//     }
-// }
+.insta {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    width: 100vw;
+    height: auto;
+    .insta_1 {
+        display: flex;
+        justify-content: center;
+        grid-area: 1 / 1 / 1 / 2;
+    }
+    .insta_2 {
+        display: flex;
+        justify-content: center;
+        grid-area: 1 / 2 / 1 / 3;
+        width: 100%;
+    }
+    .insta_3 {
+        display: flex;
+        justify-content: center;
+        grid-area: 1 / 3 / 1 / 4;
+        width: 100%;
+    }
+}
 
 // About me section
 
